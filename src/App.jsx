@@ -10,10 +10,10 @@ const App = () => {
   return <>
     <div className="bg-gray-900">
       <Home />
-      {/* <Navbar /> */}
-      {/* <About /> */}
-      {/* <Icon /> */}
-      {/* <Service /> */}
+      <Navbar />
+      <About />
+      <Icon />
+      <Service />
       <Resume />
     </div>
   </>
