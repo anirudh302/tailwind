@@ -18,7 +18,7 @@ const About = () => {
                                 <button className='text-black font-bold'>Hire Me <i class="bi bi-arrow-right absolute text-1xl"></i></button>
                             </div>
                             <div className="">
-                                <i class="bi bi-play-circle text-5xl animate-pulse text-yellow-500 "></i>
+                                <i class="bi bi-play-circle text-5xl animate-pulse text-yellow-500"></i>
                             </div>
                             <div className="">
                                 <h1 className='text-white text-1xl'>WATCH</h1>
