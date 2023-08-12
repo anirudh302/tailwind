@@ -39,7 +39,7 @@ const Resume = () => {
                 <div className="col-span-12 lg:col-span-4   lg:py-20">
                     <div className=" mt-14 text-white flex ">
                         <div className="">
-                            <h1 className='font-bold text-2xl'>Sr. Web Developer</h1>
+                            <h1 className='font-bold lg:text-2xl md:text-2xl sm:text-2xl text-xl'>Sr. Web Developer</h1>
                             <h1 className='mt-2'><i class="bi bi-microsoft text-red-400"></i> Microsoft</h1>
                             <div className="border"></div>
                         </div>
@@ -49,29 +49,29 @@ const Resume = () => {
                     </div>
                     <div className=" mt-14 text-white flex gap-10">
                         <div className="">
-                            <h1 className='font-bold text-2xl'>Lead Web Developer</h1>
+                            <h1 className='font-bold lg:text-2xl md:text-2xl sm:text-2xl text-xl'>Lead Web Developer</h1>
                             <h1 className='mt-2'>Uber</h1>
-                            <div className="border w-full"></div>
+                            <div className="border "></div>
                         </div>
-                        <div className=" ms-auto">
-                            <button className='border-yellow-400 border text-yellow-400 py-2 px-5 rounded-lg '>2018-2020</button>
+                        <div className="ms-auto">
+                            <button className='border-yellow-400 border text-yellow-400 py-2 px-5 lg:px-5 rounded-lg '>2018-2020</button>
                         </div>
                     </div>
                     <div className=" mt-14 text-white flex gap-10">
                         <div className="">
-                            <h1 className='font-bold text-2xl'>Web Developer</h1>
+                            <h1 className='font-bold lg:text-2xl md:text-2xl sm:text-2xl text-xl'>Web Developer</h1>
                             <h1 className='mt-2'>Linked</h1>
-                            <div className="border"></div>
+                            <div className="border "></div>
                         </div>
                         <div className=" ms-auto">
                             <button className='border-yellow-400 border text-yellow-400 py-2 px-5 rounded-lg '>2018-2020</button>
                         </div>
                     </div>
                 </div>
-                <div className="lg:col-span-6 col-span-12" >
+                <div className="lg:col-span-6 col-span-12 flex" >
                     <div className="mt-10">
-                        <h1 className='text-3xl font-bold  text-white'>Skills</h1>
-                        <div className="border "></div>
+                        <h1 className='text-3xl font-bold text-gray-500'>Skills</h1>
+                        <div className="border mt-2"></div>
                         <div className="flex gap-5 mt-4 font-bold">
                             <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg'>Html</h1>
                             <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg'>CSS</h1>
@@ -79,25 +79,39 @@ const Resume = () => {
                             <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg'>PHP</h1>
                         </div>
                         <div className="flex mt-4 gap-5 font-bold">
-                            <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg'>Back-end</h1>
-                            <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg'>Java Scropt</h1>
-                            <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg'>Laravel</h1>
-                            <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg'>C++</h1>
+                            <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 lg:px-3 px-1 rounded-lg'>Back-end</h1>
+                            <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 lg:px-3 px-1 rounded-lg'>Java Scropt</h1>
+                            <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 lg:px-3 px-1 rounded-lg'>Laravel</h1>
+                            <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 lg:px-3 px-1 rounded-lg'>C++</h1>
                         </div>
                         <div className="flex mt-3 font-bold">
                             <h1 className='border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg'>Figma</h1>
                         </div>
                     </div>
                 </div>
-                <div className="lg:col-span-6 col-span-12" >
+                <div className="lg:col-span-6 col-span-12 ">
                     <div className="mt-10">
-                        <h1 className='text-3xl font-bold text-white'>Tools I use every day</h1>
-                        <div className="border "></div>
-                        <div className=""></div>
+                        <h1 className='text-3xl font-bold text-gray-500'>Tools I use every day</h1>
+                        <div className="border mt-2"></div>
+                        <div className="text-white">
+                            <div className="">
+                                <div className=" flex gap-5 mt-5 flex-wrap ">
+                                    <i class="bi bi-filetype-html border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg"></i>
+                                    <i class="bi bi-filetype-html border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg"></i>
+                                    <i class="bi bi-filetype-html border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg"></i>
+                                    <i class="bi bi-filetype-html border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg"></i>
+                                    <i class="bi bi-filetype-html border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg"></i>
+                                </div>
+                                <div className="flex mt-5 gap-5">
+                                    <i class="bi bi-filetype-html border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg"></i>
+                                    <i class="bi bi-filetype-html border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg"></i>
+                                    <i class="bi bi-filetype-html border hover:bg-yellow-400 text-white  transition duration-300  py-2 px-3 rounded-lg"></i>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </>
 }
