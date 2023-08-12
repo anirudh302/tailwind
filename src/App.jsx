@@ -5,6 +5,7 @@ import About from './pages/About'
 import Icon from './pages/Icon'
 import Resume from './pages/Resume'
 import Service from './pages/Service'
+import ImagesInfo from './pages/ImagesInfo'
 
 const App = () => {
   return <>
@@ -15,6 +16,7 @@ const App = () => {
       <Icon />
       <Service />
       <Resume />
+      {/* <ImagesInfo /> */}
     </div>
   </>
 }

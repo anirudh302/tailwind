@@ -2,6 +2,10 @@ import React from 'react'
 // import Images1 from "https://quomodothemes.website/fallow/assets/images/about/male.png"
 import Images1 from "./../assets/images/about/male.png"
 import Images2 from "./../assets/images/clients/f-c-2.png"
+import Images3 from "./../assets/images/clients/f-c-3.png"
+import Images4 from "./../assets/images/clients/f-c-4.png"
+import Images5 from "./../assets/images/clients/f-c-5.png"
+import Images6 from "./../assets/images/clients/f-c-1.png"
 
 const Resume = () => {
     return <>
@@ -42,32 +46,32 @@ const Resume = () => {
                         <div className="">
                             <h1 className='font-bold lg:text-2xl md:text-2xl sm:text-2xl text-xl'>Sr. Web Developer</h1>
                             <h1 className='mt-2'><i class="bi bi-microsoft text-red-400"></i> Microsoft</h1>
-                            <div className="border"></div>
                         </div>
                         <div className=" ms-auto">
                             <button className='bg-yellow-400 py-2 mt-3 lg:px-8 px-8  text-white rounded-lg '>Current</button>
                         </div>
                     </div>
+                    <div className="border"></div>
                     <div className=" mt-14 text-white flex gap-10">
                         <div className="">
                             <h1 className='font-bold lg:text-2xl md:text-2xl sm:text-2xl text-xl'>Lead Web Developer</h1>
                             <h1 className='mt-2'>Uber</h1>
-                            <div className="border "></div>
                         </div>
                         <div className="ms-auto">
-                            <button className='border-yellow-400 border text-yellow-400 py-2  lg:px-5 px-2 rounded-lg '>2018-2020</button>
+                            <button className='border-yellow-400 border text-yellow-400 py-2  lg:px-5 px-3 rounded-lg '>2018-2020</button>
                         </div>
                     </div>
+                    <div className="border "></div>
                     <div className=" mt-14 text-white flex gap-10">
                         <div className="">
                             <h1 className='font-bold lg:text-2xl md:text-2xl sm:text-2xl text-xl'>Web Developer</h1>
                             <h1 className='mt-2'>Linked</h1>
-                            <div className="border "></div>
                         </div>
                         <div className=" ms-auto">
                             <button className='border-yellow-400 border text-yellow-400 py-2 px-5 rounded-lg '>2018-2020</button>
                         </div>
                     </div>
+                    <div className="border "></div>
                 </div>
                 <div className="lg:col-span-6 col-span-12 flex" >
                     <div className="mt-10">
@@ -118,6 +122,27 @@ const Resume = () => {
                     </div>
                 </div>
 
+                <div className="col-span-12 mt-20 ">
+                    <div className="">
+                        <h1 className='font-bold text-3xl text-gray-500'>Freelance Clients</h1>
+                        <div className="border mt-4"></div>
+                        <div className="">
+                            <div className=" flex justify-between text-gray-500 flex-wrap relative group">
+                                <img src={Images2} alt="" className='mt-10 brightness-50 group-hover:filter group-hover:brightness-200 transition duration-200' />
+                                <div className="lg:border mt-6  brightness-50"></div>
+                                <img src={Images2} alt="" className='mt-10 brightness-50 group-hover:filter group-hover:brightness-200 transition duration-300' />
+                                <div className="lg:border mt-6  brightness-50"></div>
+                                <img src={Images3} alt="" className='mt-10 brightness-50 group-hover:filter group-hover:brightness-200 transition duration-300' />
+                                <div className="lg:border mt-6  brightness-50"></div>
+                                <img src={Images4} alt="" className='mt-10 brightness-50 group-hover:filter group-hover:brightness-200 transition duration-300' />
+                                <div className="lg:border mt-6  brightness-50"></div>
+                                <img src={Images5} alt="" className='mt-10 brightness-50 group-hover:filter group-hover:brightness-200 transition duration-300' />
+                                <div className="lg:border mt-6  brightness-50"></div>
+                                <img src={Images6} alt="" className='mt-10 brightness-50 group-hover:filter group-hover:brightness-200 transition duration-300' />
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </>
