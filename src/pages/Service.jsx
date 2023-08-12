@@ -3,7 +3,7 @@ import BgImg from "../assets/images/bg/ac-ph.png"
 
 const Service = () => {
     return <>
-        <div className="grid grid-cols-12  gap-3 my-14 mx-16 mt-20">
+        <div className="grid grid-cols-12  gap-3 my-14 mx-8 mt-20">
             <div className='col-span-12 group md:col-span-6 lg:col-span-5 md:pb-10 lg:pb-12 text-5xl text-white font-bold'>Expertise Service! Let’s Check It Out.</div>
             <div className='col-span-12  group md:col-span-6 lg:col-span-7 pb-10 md:pb-10 lg:pb-12 text-xl text-gray-300 pt-2'>
                 We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers. We’ve expert team to solve your problems.
