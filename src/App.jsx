@@ -12,12 +12,12 @@ const App = () => {
   return <>
     <div className="bg-gray-900">
       <Home />
-      {/* <Navbar /> */}
-      {/* <About /> */}
+      <Navbar />
+      <About />
       <Icon />
-      {/* <Service /> */}
-      {/* <Resume /> */}
-      {/* <ImagesInfo /> */}
+      <Service />
+      <Resume />
+      {/* <ImagesInfo />/ */}
       <Customer />
     </div>
   </>
