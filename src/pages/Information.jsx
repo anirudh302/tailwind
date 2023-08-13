@@ -15,7 +15,6 @@ const Information = () => {
                         <p>We put your ideas and thus your wishes in the form of a unique web project that inspires you and you customers. We’ve expert team to solve your problems.</p>
                     </div>
                 </div>
-
             </div>
         </div>
     </>
