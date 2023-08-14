@@ -73,10 +73,10 @@ const Resume = () => {
                     </div>
                     <div className="border"></div>
                 </div>
-                <div className="lg:col-span-6 col-span-12 flex">
+                <div className="lg:col-span-6 col-span-12 lg:flex">
                     <div className="mt-10">
                         <h1 className='text-3xl font-bold text-gray-500'>Skills</h1>
-                        <div className="border mt-2"></div>
+                        <div className="border mt-2 "></div>
                         <div className="flex gap-2 mt-4 font-bold">
                             <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  lg:py-3 lg:px-3 rounded-lg  p-2'>Html</h1>
                             <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  lg:py-3 lg:px-3 rounded-lg p-2'>CSS</h1>
@@ -128,7 +128,7 @@ const Resume = () => {
                         <div className="border mt-4"></div>
                         <div className="">
                             <div className="flex justify-between text-gray-500 flex-wrap relative group">
-                                <img src={Images2} alt="" className='mt-10 brightness-50 group-hover:filter group-hover:brightness-200 transition duration-200' />
+                                <img src={Images2} alt="" className='mt-10 brightness-50 group-hover:filter group-hover:brightness-200 transition duration-200 '  />
                                 <div className="lg:border mt-6 brightness-50"></div>
                                 <img src={Images2} alt="" className='mt-10 brightness-50 group-hover:filter group-hover:brightness-200 transition duration-300' />
                                 <div className="lg:border mt-6 brightness-50"></div>

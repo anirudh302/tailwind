@@ -7,6 +7,7 @@ import Resume from './pages/Resume'
 import Service from './pages/Service'
 import ImagesInfo from './pages/ImagesInfo'
 import Customer from './pages/Customer'
+import Footer from './pages/Footer'
 
 const App = () => {
   return <>
@@ -17,8 +18,9 @@ const App = () => {
       <Icon />
       <Service />
       <Resume />
-      {/* <ImagesInfo />/ */}
+      <ImagesInfo />/
       <Customer />
+      <Footer />
     </div>
   </>
 }
