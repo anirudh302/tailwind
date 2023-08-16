@@ -58,7 +58,7 @@ const Resume = () => {
                             <h1 className='mt-2'>Uber</h1>
                         </div>
                         <div className="ms-auto">
-                            <button className='border-yellow-400 border text-yellow-400 py-2  lg:px-5 px-3 rounded-lg '>2018-2020</button>
+                            <button className='border-yellow-400 border text-yellow-400 lg:py-2 py-7  lg:px-5 px-5 rounded-lg '>2018-2020</button>
                         </div>
                     </div>
                     <div className="border"></div>
