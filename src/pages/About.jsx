@@ -14,7 +14,7 @@ const About = () => {
                             <p className='text-2xl text-gray-300 font-bold mb-7'>Agency work with top rated talented people provide qulaity services.</p>
                         </div>
                         <div className="flex gap-7">
-                            <div className="text-center p-4 h-14 w-40 rounded-lg bg-yellow-500">
+                            <div className="text-center lg:p-4 lg:h-14 lg:w-40 rounded-lg bg-yellow-500">
                                 <button className='text-black font-bold'>Hire Me <i class="bi bi-arrow-right absolute text-1xl"></i></button>
                             </div>
                             <div className="">
