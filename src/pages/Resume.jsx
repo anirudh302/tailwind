@@ -83,7 +83,7 @@ const Resume = () => {
                             <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  lg:py-3 lg:px-3  rounded-lg p-2'>Front-end</h1>
                             <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  lg:py-3 lg:px-3 p-2 rounded-lg'>PHP</h1>
                         </div>
-                        <div className="flex mt-4 gap-2 font-bold">
+                        <div className="flex mt-4 gap-2 font-bold flex-wrap">
                             <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  py-2 lg:px-3 rounded-lg'>Back-end</h1>
                             <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  py-2 lg:px-3 px-1 rounded-lg'>Java Scropt</h1>
                             <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  py-2 lg:px-3 px-1 rounded-lg'>Laravel</h1>
