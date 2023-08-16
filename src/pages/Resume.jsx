@@ -16,9 +16,9 @@ const Resume = () => {
                         <h1 className='font-bold text-3xl'>Resume</h1>
                     </div>
                     <div className="flex gap-7 mt-20">
-                        <div className="font-bold text-2xl text-white">
-                            <h1>Richard Lord</h1>
-                            <h1>Web developer</h1>
+                        <div className=" text-white">
+                            <h1 className='font-bold lg:text-2xl text-xl'>Richard Lord</h1>
+                            <h1 className='font-bold lg:text-2xl text-xl'>Web developer</h1>
                         </div>
                         <div className="flex gap-1">
                             <div className="">
