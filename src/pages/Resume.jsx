@@ -10,7 +10,7 @@ import Images6 from "./../assets/images/clients/f-c-1.png"
 const Resume = () => {
     return <>
         <div className="">
-            <div className="grid grid-cols-12 border mt-20 mx-8 p-10">
+            <div className="grid grid-cols-12 border mt-20 mx-8 p-8">
                 <div className="col-span-12 lg:col-span-4 ">
                     <div className="text-white">
                         <h1 className='font-bold text-3xl'>Resume</h1>
@@ -21,8 +21,8 @@ const Resume = () => {
                             <h1>Web developer</h1>
                         </div>
                         <div className="flex gap-1">
-                            <div className="font-bold text-7xl lg:h-38 text-yellow-400">
-                                <h1 className=''>5</h1>
+                            <div className="">
+                                <h1 className='font-bold text-7xl text-yellow-400'>5</h1>
                             </div>
                             <div className="text-white text-1xl mt-2 text-1xl">
                                 <h1>Years</h1>
