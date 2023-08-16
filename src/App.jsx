@@ -12,15 +12,15 @@ import Footer from './pages/Footer'
 const App = () => {
   return <>
     <div className="bg-gray-900">
-      <Home />
+      {/* <Home /> */}
       <Navbar />
-      <About />
-      <Icon />
-      <Service />
+      {/* <About /> */}
+      {/* <Icon /> */}
+      {/* <Service /> */}
       <Resume />
-      <ImagesInfo />/
-      <Customer />
-      <Footer />
+      {/* <ImagesInfo />/ */}
+      {/* <Customer /> */}
+      {/* <Footer /> */}
     </div>
   </>
 }
