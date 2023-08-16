@@ -48,7 +48,7 @@ const Resume = () => {
                             <h1 className='mt-2'><i class="bi bi-microsoft text-red-400"></i> Microsoft</h1>
                         </div>
                         <div className="ms-auto">
-                            <button className='bg-yellow-400 py-5 mt-3 lg:px-8 px-7  text-white rounded-lg '>Current</button>
+                            <button className='bg-yellow-400 py-2 mt-3 lg:px-8 px-8  text-white rounded-lg '>Current</button>
                         </div>
                     </div>
                     <div className="border"></div>
@@ -58,7 +58,7 @@ const Resume = () => {
                             <h1 className='mt-2'>Uber</h1>
                         </div>
                         <div className="ms-auto">
-                        <button className='bg-yellow-400 py-5 mt-3 lg:px-8 px-7  text-white rounded-lg '>Current</button>
+                        <button className='bg-yellow-400 py-2 mt-3 lg:px-8 px-8  text-white rounded-lg '>Current</button>
                         </div>
                     </div>
                     <div className="border"></div>
@@ -68,7 +68,7 @@ const Resume = () => {
                             <h1 className='mt-2'>Linked</h1>
                         </div>
                         <div className="ms-auto">
-                        <button className='bg-yellow-400 py-5 mt-3 lg:px-8 px-7  text-white rounded-lg '>Current</button>
+                        <button className='bg-yellow-400 py-2 mt-3 lg:px-8 px-8  text-white rounded-lg '>Current</button>
                         </div>
                     </div>
                     <div className="border"></div>
