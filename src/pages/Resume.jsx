@@ -11,11 +11,11 @@ const Resume = () => {
     return <>
         <div className="">
             <div className="grid grid-cols-12 border mt-20 mx-8 p-8">
-                <div className="col-span-12 lg:col-span-4 ">
+                <div className="col-span-12 lg:col-span-4">
                     <div className="text-white">
                         <h1 className='font-bold text-3xl'>Resume</h1>
                     </div>
-                    <div className="flex gap-7 mt-20">
+                    <div className="flex lg:gap-7 gap-3 mt-20">
                         <div className=" text-white">
                             <h1 className='font-bold lg:text-2xl text-xl'>Richard Lord</h1>
                             <h1 className='font-bold lg:text-2xl text-xl'>Web developer</h1>
