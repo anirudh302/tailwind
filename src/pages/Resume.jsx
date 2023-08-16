@@ -17,16 +17,16 @@ const Resume = () => {
                     </div>
                     <div className="flex lg:gap-7 gap-3 mt-20">
                         <div className=" text-white">
-                            <h1 className='font-bold lg:text-2xl text-xl'>Richard Lord</h1>
-                            <h1 className='font-bold lg:text-2xl text-xl'>Web developer</h1>
+                            <h1 className='font-bold lg:text-2xl'>Richard Lord</h1>
+                            <h1 className='font-bold lg:text-2xl'>Web developer</h1>
                         </div>
                         <div className="flex gap-1">
                             <div className="">
-                                <h1 className='font-bold text-7xl text-yellow-400'>5</h1>
+                                <h1 className='font-bold lg:text-7xl text-4xl text-yellow-400'>5</h1>
                             </div>
-                            <div className="text-white text-1xl mt-2 text-1xl">
-                                <h1>Years</h1>
-                                <h1>Experience</h1>
+                            <div className="text-white">
+                                <h1 className='lg:text-1xl mt-2'>Years</h1>
+                                <h1 className='lg:text-1xl '>Experience</h1>
                             </div>
                         </div>
                     </div>
