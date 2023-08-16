@@ -21,7 +21,7 @@ const Resume = () => {
                             <h1>Web developer</h1>
                         </div>
                         <div className="flex gap-1">
-                            <div className="font-bold lg:text-7xl text-4xl mt-20 lg:h-38 h-20 text-yellow-400">
+                            <div className="font-bold text-7xl h-38 text-yellow-400">
                                 <h1 className=''>5</h1>
                             </div>
                             <div className="text-white text-1xl mt-2 text-1xl">
