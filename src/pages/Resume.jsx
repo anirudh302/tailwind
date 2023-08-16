@@ -58,7 +58,7 @@ const Resume = () => {
                             <h1 className='mt-2'>Uber</h1>
                         </div>
                         <div className="ms-auto">
-                            <button className='border-yellow-400 border text-yellow-400 lg:py-2 py-7  lg:px-5 px-5 rounded-lg '>2018-2020</button>
+                        <button className='bg-yellow-400 py-2 mt-3 lg:px-8 px-8  text-white rounded-lg '>Current</button>
                         </div>
                     </div>
                     <div className="border"></div>
@@ -68,7 +68,7 @@ const Resume = () => {
                             <h1 className='mt-2'>Linked</h1>
                         </div>
                         <div className="ms-auto">
-                            <button className='border-yellow-400 border text-yellow-400 py-2 px-5 rounded-lg '>2018-2020</button>
+                        <button className='bg-yellow-400 py-2 mt-3 lg:px-8 px-8  text-white rounded-lg '>Current</button>
                         </div>
                     </div>
                     <div className="border"></div>
