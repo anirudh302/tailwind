@@ -43,7 +43,7 @@ const Navbar = () => {
                 <div className="hidden lg:block">
                     <button className='group rounded-2xl py-3 px-8 font-bold bg-yellow-500'>Let's Talk<i class="bi bi-arrow-right group-hover:ms-3 absolute text-1xl"></i></button>
                 </div>
-                <button className='lg:hidden block' onClick={e => setshow(!show)}><i class="bi bi-list text-3xl"></i></button>
+                <button className='lg:hidden block' onClick={e => setshow(!show)}><i class={!show ? "bi bi-list text-3xl" : "bi bi-x-square-fill text-3xl"}></i></button>
             </div>
         </div>
         <div className="relative">

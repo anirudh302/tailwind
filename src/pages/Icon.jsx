@@ -19,7 +19,7 @@ const Icon = () => {
                         <div className="h-[32%] flex gap-3">
                             <i class="bi bi-github text-3xl font-bold"></i>
                             <div className="">
-                                <p>Github</p>
+                                <a href="https://github.com/anirudh302">GitHub</a>
                             </div>
                         </div>
                     </div>
@@ -39,7 +39,8 @@ const Icon = () => {
                         <div className="h-[32%] flex gap-3">
                             <i class="bi bi-linkedin text-3xl font-bold"></i>
                             <div className="">
-                                <p>Linkedin</p>
+                                <a href="https://www.linkedin.com/in/anirudh-tupe-b0a538251/">Linkedin</a>
+                                {/* <p>Linkedin</p> */}
                             </div>
                         </div>
                     </div>
