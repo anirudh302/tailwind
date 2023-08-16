@@ -78,7 +78,7 @@ const Resume = () => {
                         <h1 className='text-3xl font-bold text-gray-500'>Skills</h1>
                         <div className="border mt-2 "></div>
                         <div className="flex gap-2 mt-4 font-bold">
-                            <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  lg:py-3 lg:px-3 rounded-lg  p-2'>Html</h1>
+                            <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  lg:py-3 lg:px-3 rounded-lg'>Html</h1>
                             <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  lg:py-3 lg:px-3 rounded-lg p-2'>CSS</h1>
                             <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  lg:py-3 lg:px-3  rounded-lg p-2'>Front-end</h1>
                             <h1 className='border hover:bg-yellow-400 text-white hover:text-black transition duration-300  lg:py-3 lg:px-3 p-2 rounded-lg'>PHP</h1>
