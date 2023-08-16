@@ -66,8 +66,7 @@ const ImagesInfo = () => {
             </div>
         </div>
         <div className=" text-white text-center">
-            {/* <button className='border mt-20 px-5 py-3 rounded-lg font-bold'>See More</button> */}
-            <a href="" className='border mt-20 px-8 py-3 border-yellow-400 text-yellow-500 rounded-lg font-bold'>See More</a>
+            <button className='border mt-20 px-5 py-3 rounded-lg font-bold'>See More</button>
         </div>
     </>
 }
